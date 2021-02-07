@@ -7,10 +7,35 @@
     border: 4px solid;
     border-radius: 10px;
     width: 300px;
-    text-align: center
+    text-align: center;
 }
 .food img{
     width: 292px;
     height: 200px;
     border-radius: 7px;
+}
+#foodDetail{
+    text-align: center;
+}
+#foodDetail img{
+    width: 500px;
+    height: 300px;
+    
+}
+.container{
+    height: 100vh;
+    position: relative;
+}
+.container::after{ 
+    content: "";
+    background-image: url(images/cookingMaster.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.4;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
 }
